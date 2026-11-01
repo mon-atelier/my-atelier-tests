@@ -1,0 +1,23 @@
+name: Proposer une amélioration
+description: Expliquer un besoin et son intérêt dans le travail quotidien.
+title: "[Idée] "
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Quel besoin rencontrez-vous ?
+      description: Décrivez votre rôle et la situation sans donnée personnelle.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Votre proposition
+    validations:
+      required: true
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Qu'améliorerait-elle pour vous ?
+    validations:
+      required: true

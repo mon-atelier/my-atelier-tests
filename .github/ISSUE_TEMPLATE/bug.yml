@@ -1,0 +1,61 @@
+name: Signaler un problème
+description: Décrire une difficulté rencontrée pendant un test My Atelier.
+title: "[Test] "
+body:
+  - type: markdown
+    attributes:
+      value: "Cet échange est public. Ne publiez aucun identifiant, code, nom de client, plaque ou document réel. Masquez les captures."
+  - type: dropdown
+    id: role
+    attributes:
+      label: Espace utilisé
+      options:
+        - Client
+        - Garage / propriétaire
+        - Conseiller
+        - Technicien / mécanicien
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Appareil et navigateur
+      placeholder: "Ex. Android, Chrome ; ordinateur, Firefox"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Étapes pour reproduire
+      description: Indiquez les boutons utilisés sans données personnelles.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Résultat attendu
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Résultat obtenu
+    validations:
+      required: true
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      options:
+        - Bloquant — impossible de continuer
+        - Gênant — une autre solution existe
+        - Affichage ou compréhension
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Vérification avant publication
+      options:
+        - label: J'ai retiré les données personnelles et les codes des textes et captures.
+          required: true

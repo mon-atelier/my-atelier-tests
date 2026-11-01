@@ -2,13 +2,17 @@
 
 My Atelier rapproche clients, garages, conseillers, techniciens et mécaniciens autour du suivi d'un véhicule et de son dossier.
 
-Cet espace public accueille les retours des testeurs et des écoles partenaires. Il ne contient pas le code de l'application. Le code est conservé dans un dépôt privé séparé.
+Cet espace public accueille les retours des testeurs volontaires. Il ne contient pas le code de l'application. Le code est conservé dans un dépôt privé séparé.
 
 ## Participer aux tests
 
-Les tests sont organisés avec le responsable My Atelier, qui fournit le périmètre et les accès adaptés à chaque rôle. Aucun identifiant partagé n'est publié ici.
+**[Essayer My Atelier sans inscription →](https://my-atelier-demo.vercel.app/demo)**
 
-L'application actuelle est accessible à l'adresse https://re-one-lime.vercel.app. Cette adresse correspond au service existant : elle ne constitue pas un environnement de démonstration isolé. N'y créez pas de faux dossiers dans un vrai garage. Pour une séance pédagogique, attendez les consignes et les comptes réservés à votre groupe.
+Choisissez **Client**, **Garage / propriétaire**, **Conseiller client** ou **Technicien / mécanicien**. Aucun compte à créer, aucune adresse e-mail et aucun mot de passe à saisir. Le bouton **Changer de rôle** permet de découvrir les différents points de vue sur le même dossier.
+
+La démonstration utilise une base séparée avec des véhicules, dossiers, rendez-vous et messages fictifs. Les comptes sont partagés : les modifications sont visibles par les autres visiteurs. Ne saisissez aucune donnée personnelle. Les fichiers, e-mails, SMS, WhatsApp et modifications de compte sont désactivés ; certains essais sont donc limités. Les notifications internes à My Atelier restent consultables.
+
+Le service réel https://re-one-lime.vercel.app est distinct de cet espace de démonstration.
 
 1. Consultez le [guide de test](GUIDE-TEST.md).
 2. Réalisez le parcours correspondant à votre rôle.

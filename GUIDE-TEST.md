@@ -2,16 +2,16 @@
 
 ## Avant la séance
 
-Le responsable fournit un environnement et des comptes réservés au groupe, ainsi qu'un scénario commun. Ne transmettez pas vos identifiants à d'autres participants. Si aucun environnement isolé n'est fourni, limitez-vous aux parcours autorisés sur vos propres données ; ne créez pas de données fictives dans les dossiers réels.
+Ouvrez **https://my-atelier-demo.vercel.app/demo**, puis choisissez Client, Garage / propriétaire, Conseiller client ou Technicien / mécanicien. Vous entrez directement dans un compte fictif sans inscription. Utilisez **Changer de rôle** pour passer d'un espace à l'autre.
 
-Notez le rôle, l'appareil, le navigateur et la date. Utilisez uniquement des images de test sans données personnelles dans un environnement réservé aux tests. Aucun paiement, envoi WhatsApp réel ou action destructive n'est demandé par ce guide.
+Notez le rôle, l'appareil, le navigateur et la date. Les comptes et modifications sont partagés entre les visiteurs : ne renseignez aucune donnée personnelle. Les téléversements, envois externes (e-mail, SMS, WhatsApp), changements d'identité et de mot de passe sont désactivés dans cette démonstration. Aucun paiement réel n'est demandé. Ne faites pas ces essais dans le service de production.
 
 ## 1. Client
 
 - Se connecter et vérifier que seules ses données sont visibles.
 - Choisir un véhicule et un garage ; vérifier les informations d'identité affichées.
 - Décrire une puis plusieurs réclamations, les enregistrer et vérifier les conditions d'envoi.
-- Consulter les messages, pièces jointes autorisées, rendez-vous et historique.
+- Consulter les messages, rendez-vous et historique. Les téléversements de pièces jointes sont désactivés dans cette démonstration.
 - Vérifier la navigation mobile et la page MMA.
 
 ## 2. Garage et conseiller
